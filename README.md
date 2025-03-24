@@ -1,6 +1,6 @@
-# Coffee Shop Sales Analysis Using SQL
+ #Coffee Shop Sales Analysis Using SQL
 
-📌 #Project Overview
+#📌 Project Overview
 
 🚀 This project focuses on analyzing coffee shop sales data using SQL to uncover key business insights. The objective is to evaluate total revenue, sales trends, and store performance, enabling data-driven decision-making.
 
@@ -8,9 +8,9 @@
 
 📈 Total Sales, Orders, and Quantity Sold – Evaluated revenue performance for May.📉 Month-over-Month Growth Analysis – Compared April vs. May sales trends.🏪 Store & Product Performance – Identified top-performing locations and best-selling product categories.🕒 Sales Trends by Time – Analyzed customer purchasing behavior by day of the week and hour of the day.
 
-📂 Dataset Details
+#📂 Dataset Details
 
-📌 Table Name: coffee_shop_sales📋 Key Columns:
+##📌 Table Name: coffee_shop_sales📋 Key Columns:
 
 🆔 transaction_id – Unique order identifier
 
@@ -28,7 +28,7 @@
 
 🔍 SQL Queries Used
 
-1️⃣ Total Sales for May
+##1️⃣ Total Sales for May
 
 SELECT ROUND(SUM(unit_price * transaction_qty)) AS Total_Sales
 FROM coffee_shop_sales
