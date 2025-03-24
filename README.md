@@ -1,4 +1,4 @@
-### Coffee Shop Sales Analysis Using SQL
+#  Coffee Shop Sales Analysis Using SQL
 
 # 📌 Project Overview
 
@@ -76,10 +76,10 @@ ORDER BY Total_Sales DESC;
 
 ✅ Helps identify peak sales hours and days for better staffing decisions.✅ Reveals best-performing store locations for strategic expansion.✅ Assists in optimizing inventory based on product category demand.
 
-📎 How to Use This Project
+## 📎 How to Use This Project
 
 1️⃣ Clone the repository.2️⃣ Import the dataset into your MySQL database.3️⃣ Run the provided SQL queries to generate insights.4️⃣ Visualize the results using Excel, Power BI, or any BI tool.
 
-🎯 Future Enhancements
+## 🎯 Future Enhancements
 
 📊 Integrate a dashboard for interactive visualizations.📌 Expand analysis to include customer demographics and purchase patterns.🔮 Apply machine learning for sales forecasting.
