@@ -1,4 +1,4 @@
- # Coffee Shop Sales Analysis Using SQL
+### Coffee Shop Sales Analysis Using SQL
 
 # 📌 Project Overview
 
@@ -34,13 +34,13 @@ SELECT ROUND(SUM(unit_price * transaction_qty)) AS Total_Sales
 FROM coffee_shop_sales
 WHERE MONTH(STR_TO_DATE(transaction_date, '%d/%m/%y')) = 5;
 
-2️⃣ Total Orders in May
+## 2️⃣ Total Orders in May
 
 SELECT COUNT(transaction_id) AS Total_Orders
 FROM coffee_shop_sales
 WHERE MONTH(STR_TO_DATE(transaction_date, '%d/%m/%y')) = 5;
 
-3️⃣ Month-over-Month Sales Comparison (April vs. May)
+## 3️⃣ Month-over-Month Sales Comparison (April vs. May)
 
 SELECT
     MONTH(STR_TO_DATE(transaction_date, '%d/%m/%y')) AS month,
@@ -58,7 +58,7 @@ GROUP BY
 ORDER BY
     MONTH(STR_TO_DATE(transaction_date, '%d/%m/%y'));
 
-4️⃣ Sales Performance by Store Location
+## 4️⃣ Sales Performance by Store Location
 
 SELECT
     store_location,
@@ -68,11 +68,11 @@ WHERE MONTH(STR_TO_DATE(transaction_date, '%d/%m/%y')) = 5
 GROUP BY store_location
 ORDER BY Total_Sales DESC;
 
-🚀 Tools & Technologies Used
+## 🚀 Tools & Technologies Used
 
 🛠 SQL (MySQL) – Data extraction and analysis📊 Data Visualization – Optional (Excel, Power BI, Tableau, etc.)
 
-📈 Business Impact
+## 📈 Business Impact
 
 ✅ Helps identify peak sales hours and days for better staffing decisions.✅ Reveals best-performing store locations for strategic expansion.✅ Assists in optimizing inventory based on product category demand.
 
