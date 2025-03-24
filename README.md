@@ -1,4 +1,4 @@
-# #  Coffee Shop Sales Analysis Using SQL
+##  Coffee Shop Sales Analysis Using SQL
 
 # 📌 Project Overview
 
